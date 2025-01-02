@@ -1,0 +1,46 @@
+:root {
+  --hardBlue:#006989;
+  --lightBlue: #7CC6FE;
+  --hardPink: #FF90B3;
+  --lightPink: #FFC2E2;
+  --lightGreen: #5DFDCB;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: system-ui;
+  color: #000;
+}
+
+body{
+  background-color: var(--lightPink);
+  padding: 2rem;
+}
+
+p{
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+.TopStars{
+  text-align: center;
+  font-weight: 500;
+}
+
+::-webkit-scrollbar{
+  background-color: var(--hardPink);
+  width: 8px;
+}
+
+::-webkit-scrollbar-button{
+  background-color: var(--hardBlue);
+}
+
+
+::-webkit-scrollbar-thumb{
+  background-color: var(--lightBlue);
+}
