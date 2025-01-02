@@ -12,6 +12,7 @@
 
 .searchContainer{
     display: flex;
+    margin-top: 1rem;
 }
 
 .search h2{
